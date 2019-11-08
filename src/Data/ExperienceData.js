@@ -1,7 +1,7 @@
-const data = [
+export const experienceData = [
   {
     id: "000001",
-    company: "Mampre Arqa Training Center",
+    company: "King Mampreh Training Center",
     workExperience: "React.js",
     attendingYear: "2019",
     completionYear: "Present"
@@ -28,7 +28,3 @@ const data = [
     completionYear: "2007"
   }
 ];
-
-export function getData() {
-  return data;
-}

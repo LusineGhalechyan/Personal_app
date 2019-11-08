@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../Header/Header";
 import Sidebar from "../SideBar/Sidebar";
-import PersonalData from "../Personal data/PersonalData";
-import MainPhoto from "../Main Photo/Main Photo";
+import MainPhoto from "../MainPhoto/MainPhoto";
 import style from "./Profile.module.css";
+import PersonalData from "../Personal data/PersonalData";
 
 const Profile = () => {
   return (

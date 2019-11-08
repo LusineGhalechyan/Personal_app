@@ -8,9 +8,10 @@ const Qualifications = () => {
 
   const handleDelete = e => {
     const index = data.indexOf(e);
-    const datas = data.filter(d => d.id !== data[index].id);
-    setData(datas);
+    const filteredData = data.filter(d => d.id !== data[index].id);
+    setData(filteredData);
   };
+  console.log("data", data);
   const { length } = data;
   if (length === 0)
     return (
@@ -21,6 +22,9 @@ const Qualifications = () => {
   return (
     <div style={{ margin: "20px" }}>
       <h6> There are {length} qualifications in the data </h6>
+      <Button variant="contained" color="primary" aria-label="add">
+        Add
+      </Button>{" "}
       <table className="table table-hover table-responsive-sm">
         <thead>
           <tr>
