@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Yellowtail&display=swap");
+@import url("http://fonts.googleapis.com/css?family=Indie+Flower");
+
+.hamburgerMenu {
+  position: absolute;
+  left: 33px;
+  top: 20px;
+  z-index: 1;
+}
+.hamburgerMenu:hover {
+  cursor: pointer;
+}
+
+.bookmarkIcon {
+  display: inline-block;
+  font-size: 100px !important;
+  color: #dbd8de;
+  position: absolute;
+  top: 0;
+  cursor: pointer !important;
+  margin-top: -19px;
+}
+
+.mainCover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 40.3%;
+  left: 42.3%;
+  font-family: "Indie Flower";
+  font-size: 54px;
+}
+
+.logo {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  width: 170px;
+  transform: rotate(-15deg);
+}
+
+.button {
+  position: absolute;
+  top: 75%;
+  left: 42.3%;
+}
+
+.fingerprintIcon {
+  margin: 3px;
+}

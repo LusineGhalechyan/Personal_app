@@ -1,0 +1,42 @@
+.mainBox {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  background: #eee;
+  position: relative;
+  left: calc(50% - 200px);
+}
+.pulse {
+  display: inline-flex;
+  vertical-align: middle;
+  margin: 5px;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff0066;
+}
+.span {
+  position: absolute;
+  top: 75px;
+  left: 121.2px;
+  border: 1px solid #ff0066;
+  padding: 20px;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+div a,
+div a:hover {
+  text-decoration: none;
+  color: #ff0066;
+  cursor: pointer !important;
+}
