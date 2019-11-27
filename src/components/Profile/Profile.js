@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import Sidebar from "../SideBar/Sidebar";
 import MainPhoto from "../MainPhoto/MainPhoto";
 import style from "./Profile.module.css";
-import PersonalData from "../Personal data/PersonalData";
+import PersonalData from "../PersonalData/PersonalData";
 
 const Profile = () => {
   return (
