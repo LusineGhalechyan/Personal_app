@@ -2,8 +2,8 @@ const data = [
   {
     id: "000018",
     qualification: "Toefl ITP",
-    attendingYear: "2011",
-    completionYear: "2011"
+    attendingYear: "01.April.2011",
+    completionYear: "10.May.2011"
   },
   {
     id: "024557",
