@@ -3,8 +3,8 @@ export const experienceData = [
     id: "000001",
     company: "King Mampreh Training Center",
     workExperience: "React.js",
-    attendingYear: "2019",
-    completionYear: "Present"
+    attendingYear: "01.July.2019",
+    completionYear: "30.September.2019"
   },
   {
     id: "000002",
